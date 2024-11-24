@@ -9,17 +9,19 @@ If a player makes the first free throw, does it lead to overconfidence and resul
 This project was completed using the pandas, NumPy, SciPy, and Lmer libraries in Python.
 
 # Sources
-The dataset was comprised of information for over 600 thousand NBA free throws from 2006 to 2016. The dataset was obtained from Kaggle:
+The dataset was comprised of information for over 600 thousand NBA free throws from 2006 to 2016.
+
+The dataset was obtained from Kaggle:
 
 Mantey, S. (2017). NBA Free Throws. Kaggle. https://www.kaggle.com/datasets/sebastianmantey/nba-free-throws 
-
 
 The test statistic used to calculate the p-value for each player was obtained from NIST:
 
 7.3.3. How can we determine whether two processes produce the same proportion of defectives?. National Institute of Standards and Technology. 
 (n.d.). https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm 
 
-Information about the multiple testing correction that was found on Statistics How To:
+Information about the multiple testing correction used was found on Statistics How To:
+
 Benjamini-Hochberg Procedure. Statistics How To. (n.d.). https://www.statisticshowto.com/benjamini-hochberg-procedure/
 
 # Process
