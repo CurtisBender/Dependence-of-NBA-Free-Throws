@@ -38,7 +38,7 @@ For each of the 50 players, the analysis involved calculating their p-values wit
 # [General Player Analysis](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/General%20Player%20Analysis.pdf)
 In addition to the analysis of individual players, the overall trend amongst players in general was also investigated.
 
-Logistic regression with mixed effects was used to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different player's.
+Mixed effects logistic regression was used to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different player's.
 
 # Results
 For the individual player analysis, only 2 of the 50 players provided sufficient evidence to reject the null hypothesis the consecutive free throws are independent events. 
