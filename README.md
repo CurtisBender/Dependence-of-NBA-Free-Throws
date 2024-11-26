@@ -25,10 +25,10 @@ Information about the multiple testing correction used was found on Statistics H
 Benjamini-Hochberg Procedure. Statistics How To. (n.d.). https://www.statisticshowto.com/benjamini-hochberg-procedure/
 
 # Process
-# [Preprocessing](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/Preprocessing.pdf)
+## [Preprocessing](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/Preprocessing.pdf)
 I started this project by downloading the dataset and importing the csv as a DataFrame in Python. As a result of an error by the NBA or the Kaggle member that scraped the data, there were instances of free throw 1 of 2 appearing twice or not having free throw 2 of 2. As a result, some data cleaning was required. From there, I reconfigured the DataFrame to allow me to perform statistical analysis. 
 
-# [Individual Player Analysis](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/Individual%20Player%20Analysis.pdf)
+## [Individual Player Analysis](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/Individual%20Player%20Analysis.pdf)
 The first part of the analysis focussed on evaluating the effect of making or missing the first free throw for individual players.
 
 When performing multiple hypothesis tests, the significance level needs to be adjusted to account for the increased likelihood of making a Type I error (false positive) across multiple tests. 
@@ -37,7 +37,7 @@ Adjusting the significance level reduces the power of the individual hypothesis 
 
 For each of the 50 players, the analysis involved calculating their p-values with the null hypothesis that consecutive free throws are independent events.
 
-# [General Player Analysis](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/General%20Player%20Analysis.pdf)
+## [General Player Analysis](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws/blob/main/Reports/General%20Player%20Analysis.pdf)
 In addition to the analysis of individual players, the overall trend amongst players in general was also investigated.
 
 Mixed effects logistic regression was used to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different player's.
