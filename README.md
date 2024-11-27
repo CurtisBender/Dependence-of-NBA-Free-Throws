@@ -6,7 +6,7 @@ The goal of this project was to determine if the result of the first free throw 
 If a player makes the first free throw, does it lead to overconfidence and result in a lower probability of making the second free throw? Or does making the first free throw indicate that the player is in the 'zone' and has a higher probability of making the second free throw?
 
 # Tools
-This project was completed using the pandas, NumPy, SciPy, and Lmer libraries in Python.
+This project was completed using the Pandas, NumPy, SciPy, and pymer4 libraries in Python.
 
 # Sources
 The dataset was comprised of information for over 600 thousand NBA free throws from 2006 to 2016.
