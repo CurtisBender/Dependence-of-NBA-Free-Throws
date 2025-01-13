@@ -74,4 +74,4 @@ Stephen Curry made first free throw: 0.9156
 Difference: 0.0115
 ```
 
-From the model predictions, it can been seen that making the first free throw increases the probability of making the second free throw by roughly 1.2-3.5% depending on the player's average free throw percentage.
+From the model predictions, it can been seen that making the first free throw increases the estimated probability of making the second free throw by roughly 1.2-3.5% depending on the player's average free throw percentage.
